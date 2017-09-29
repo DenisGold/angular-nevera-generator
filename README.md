@@ -1,14 +1,3 @@
-<p align="center">
-  <a href="http://fountainjs.io/">
-    <img alt="FountainJS" src="http://fountainjs.io/assets/imgs/fountain.png" width="200">
-  </a>
-</p>
-
-[![Build Status](https://travis-ci.org/FountainJS/generator-fountain-angular1.svg?branch=master)](https://travis-ci.org/FountainJS/generator-fountain-angular1)
-[![codecov](https://codecov.io/gh/FountainJS/generator-fountain-angular1/branch/master/graph/badge.svg)](https://codecov.io/gh/FountainJS/generator-fountain-angular1)
-[![Slack](http://slackin.fountainjs.io/badge.svg)](http://slackin.fountainjs.io/)
-
-
 # Fountain Angular 1 Generator
 
 [![Angular 1](http://fountainjs.io/assets/imgs/angular1.png)](https://docs.angularjs.org/guide)
@@ -22,27 +11,11 @@
 - JS preprocessor: Babel, TypeScript, none
 - CSS preprocessor: Sass, Stylus, Less, none
 
-This generator is a sub-generator of the the Yeoman Fountain generator for webapps [generator-fountain-webapp](https://github.com/FountainJS/generator-fountain-webapp).
-
 ## Generator Fountain Angular 1 structure
 
 To take profit of the best of the Yeoman infrastructure, we heavily relies on the composability natures of the generators.
 
 Thereby, each needs of your future application will be addressed by a dedicated Yeoman generator (each will be used depending of the options you selected or not).
-
-More informations in [DESIGN.md](http://fountainjs.io/doc/design).
-
-
-### Web tooling layer
-[![Gulp](http://fountainjs.io/assets/imgs/gulp.png)](https://github.com/FountainJS/generator-fountain-gulp)
-[![ESLint](http://fountainjs.io/assets/imgs/eslint.png)](https://github.com/FountainJS/generator-fountain-eslint)
-[![BrowserSync](http://fountainjs.io/assets/imgs/browsersync.png)](https://github.com/FountainJS/generator-fountain-browsersync)
-[![Karma](http://fountainjs.io/assets/imgs/karma.png)](https://github.com/FountainJS/generator-fountain-karma)
-
-### Module management layer
-[![Webpack](http://fountainjs.io/assets/imgs/webpack.png)](https://github.com/FountainJS/generator-fountain-webpack)
-[![SystemJS](http://fountainjs.io/assets/imgs/systemjs.png)](https://github.com/FountainJS/generator-fountain-systemjs)
-[![Bower](http://fountainjs.io/assets/imgs/bower.png)](https://github.com/FountainJS/generator-fountain-inject)
 
 
 ## Usage
@@ -112,12 +85,3 @@ Each generator has 2 options:
 
 ```
 yo fountain-angular1:component --name myComponent --dir components/game
-```
-
-### [Start development](http://fountainjs.io/doc/usage/#use-npm-scripts)
-
-
-## [Changelog](https://github.com/FountainJS/generator-fountain-angular1/releases)
-
-
-## [Contributing](http://fountainjs.io/doc/contributing)
